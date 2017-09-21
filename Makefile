@@ -31,3 +31,4 @@ question3: $(wildcard src/q3/*.c)
 #any files in bin/ being commited and accidentally pushed)
 clean:
 	rm -rf bin/*
+	touch bin/.gitkeep
