@@ -1,0 +1,8 @@
+Q4 a)
+Because this is an implementation of a singly linked list you must first reverse the order of the linked list to traverse tail to head.
+This therefore requires more memory than traversing head to tail as extra computations must be completed.
+
+b) 
+The structure of the linked list could be improved by changing it to a doubly linked list. I.e. have nodes that point forwards and backwards.
+This will be less memory intensive as reversing the linked list is not necessary as you can start at the tail node and iterate backwards through the list.
+
